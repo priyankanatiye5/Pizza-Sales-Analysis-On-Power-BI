@@ -1,0 +1,26 @@
+Key DAX Measures
+Total Revenue = SUM('Sales'[Total Price])
+
+Total Orders = DISTINCTCOUNT('Sales'[Order ID])
+
+Total Quantity = SUM('Sales'[Quantity])
+
+Avg Order Value = DIVIDE([Total Revenue], [Total Orders])
+
+Avg Pizzas per Order = DIVIDE([Total Quantity], [Total Orders])
+
+🚀 Business Impact
+
+This dashboard enables stakeholders to:
+
+Optimize product mix
+Improve pricing strategy
+Identify peak demand periods
+Reduce low-performing inventory
+
+🛠️ Tools Used
+Power BI
+Power Query
+DAX
+Data Modeling
+
